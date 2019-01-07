@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS do BootStrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS necessário para o Leaflet (Framework usado para gerar o Mapa)-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+
+    <!-- Javascript necessário para o Leaflet (Framework usado para gerar o Mapa)-->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+        crossorigin=""></script>
+
+    <title>Sobre o Usuário</title>
+</head>
+
+<body>
+    <h1 id=userName>UserName</h1>
+    <div class="container" id="content">
+        <div class="row">
+            <div class="col-sm">
+                <div id="userImage"></div>
+                <h3>Dados</h3>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Endereço de E-mail:</th>
+                            <td id="userEmail"><i>Indisponível</i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Telefone:</th>
+                            <td id="userPhone"><i>Indisponível</i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Data de Nascimento:</th>
+                            <td id="userDate"><i>Indisponível</i></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Endereço:</th>
+                            <td id="userAddress"><i>Indisponível</i></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+        <h3>Localização</h3>
+        <div class="row">
+            <div class="col" id="mapid" style="width: 600px; height: 400px;"></div>           
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-dark" id="voltar">Voltar</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Import do jQuery(necessário para o Bootstrap), Popper e do Bootstrap em si. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Javascript da página -->    
+    <script src="javascriptData.js"></script>
+
+</body>
+
+</html>

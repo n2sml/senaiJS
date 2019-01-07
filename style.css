@@ -1,0 +1,77 @@
+h3{
+    text-align: center;
+}
+
+#map{
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#errorSpace{
+    text-align: center;
+}
+
+body{
+    margin: auto;
+    align-self: auto;
+    background-color: #EEEEEE;  
+}
+
+img{
+    border-radius: 10px 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+#bottom-button{
+    position: fixed;
+	float: bottom;
+	bottom: 15px;
+	right: 15px;
+    z-index: 2;
+}
+
+#voltar{
+    position: fixed;
+	float: bottom;
+	top: 15px;
+	right: 15px;
+    z-index: 2;
+}
+
+#table-index{
+    display:none;
+}
+
+#statistics{
+    margin-top: 10%;
+    align-self: auto;
+}
+
+#search{
+    display: none
+}
+
+@media only screen and (max-width: 600px) {
+    #voltar{        
+        top: 5px;
+        right: 15px;
+        z-index: 2;
+    }
+
+    h1{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 2%;
+    }
+    
+    
+}
