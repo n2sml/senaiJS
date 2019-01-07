@@ -12,28 +12,28 @@ Utilizei Bootstrap para a criação de tabelas, botões e para manter a responsi
 ### Todas as Informações Oriundas da API 
 Todos os dados dos usuários têm como fonte o randomuser.me;
 
-### Projeto no GitHub até 07/01 - 
+### Projeto no GitHub até 07/01 
 Você está lendo ele :) ;
 
-### Conteúdo da Página Inicial - 
+### Conteúdo da Página Inicial 
 Consiste em uma tabela com 25 linhas (cada uma sendo um usuário) e 3 colunas (respectivamente seus nomes, endereços de e-mail e telefones);
 
-### Página com Detalhamento de Informações - 
+### Página com Detalhamento de Informações 
 Ao selecionar um item da lista, o usuário é redirecionado à uma página com todas as informações solicitadas no desafio;
 
-### Exibição do Mapa com a Localização do Usuário - 
+### Exibição do Mapa com a Localização do Usuário 
 No fim da página de detalhamento, implementei um mapa utilizando os dados fornecidos pelo randomuser.me indicando a sua localização.
 
-### Tela com Gráficos Sobre os Usuários- 
+### Tela com Gráficos Sobre os Usuários
 No rodapé da tela inicial da aplicação, há uma opção que leva o usuário à uma nova página, exibindo gráficos informando estatísticas sobre os usuários coletados do site, de acordo com o solicitado no desafio.
 
-### Filtrar Usuário - 
+### Filtrar Usuário 
 Na tela principal da aplicação, há um campo de texto onde podem ser inseridos dados para filtrar tanto o nome quanto o endereço de e-mail de um usuário específico.
 
-### Tratamento de Erro - 
+### Tratamento de Erro 
 Caso a página principal da aplicação seja acessada Offline ou com esteja enfrentando algum problema de conexão com o randomuser.me, o mesmo exibe um aviso de erro e tenta, após uma contagem regressiva, recarregar a página.
 
-## Bibliotecas e Frameworks - 
+## Bibliotecas e Frameworks 
 Esse projeto foi desenvolvido utilizando as seguintes bibliotecas e frameworks:
 * [Bootstrap 4](https://getbootstrap.com/) - Utilizada para gerenciar a responsividade com o "Grid Layout", botões e tabelas;
 * [Leaflet](https://leafletjs.com/) - Utilizada para gerar mapas (parte opcional do desafio);
