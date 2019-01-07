@@ -42,5 +42,5 @@ Esse projeto foi desenvolvido utilizando as seguintes bibliotecas e frameworks:
 ## Instalando
 Como o projeto foi todo desenvolvido utilizando Javascript, CSS e HTML, um simples git clone no repositório deixará disponível todo o conteúdo necessário para a execução do sistema. Para iniciar, basta simplesmente abrir o arquivo index.html.
 
-## Autor - 
+## Autor 
 Nícolas Soares da Silva Miguel, estudante de Análise e Desenvolvimento de Sistemas do Instituto Federal de Pernambuco (IFPE).
