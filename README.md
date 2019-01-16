@@ -2,7 +2,7 @@
 Projeto realizado para o programa de estágio do Instituto SENAI de Inovação em Tecnologia da Informação e Comunicação (ISI-Tics).
 
 ## Sobre
-Por comodidade, deixei uma versão desse sistema hospedada na web usando Firebase: está temporáriamente hospedado [aqui](https://senaijs-216fb.firebaseapp.com/)
+Por comodidade, deixei uma versão desse sistema hospedada na web usando Firebase: está temporáriamente hospedado [aqui](https://senaijs-216fb.firebaseapp.com/).
 
 
 Meu foco neste projeto foi implementar todos os requisitos do desafio, tanto os necessários quanto os extras, os quais consegui com sucesso:
